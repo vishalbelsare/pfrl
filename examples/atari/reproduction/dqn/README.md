@@ -13,7 +13,7 @@ To run the training example:
 ```
 python train_dqn.py [options]
 ```
-We have already pretrained models from this script for all the domains listed in the [results](#Results). Note that while we may have run multiple seeds, our pretrained model represents a single run from this script, and may not be achieve the performance of the [results](#Results). To load a pretrained model:
+We have already pretrained models from this script for all the domains listed in the [results](#Results). Note that while we may have run multiple seeds, our pretrained model represents a single run from this script, and may not achieve the performance of the [results](#Results). To load a pretrained model:
 
 ```
 python train_dqn.py --demo --load-pretrained --env BreakoutNoFrameskip-v4 --pretrained-type best --gpu -1
